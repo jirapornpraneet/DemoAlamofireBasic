@@ -9,11 +9,11 @@ import Foundation
 import ObjectMapper
 import AlamofireObjectMapper
 
-class CurrencyInfo: Mappable {
+class UserInfo: Mappable {
     
     var name = ""
     var height = ""
-    var hair_color = ""
+    var hairColor = ""
 
     
     required init?(map: Map) {}
@@ -22,6 +22,6 @@ class CurrencyInfo: Mappable {
     func mapping(map: Map) {
         name <- map["name"]
         height <- map["height"]
-        hair_color <- map["hair_color"]
+        hairColor <- map["hair_color"]
     }
 }
