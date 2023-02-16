@@ -14,6 +14,7 @@
 		39FDE728299E060B00CD328E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39FDE726299E060B00CD328E /* Main.storyboard */; };
 		39FDE72A299E061000CD328E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 39FDE729299E061000CD328E /* Assets.xcassets */; };
 		39FDE72D299E061000CD328E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39FDE72B299E061000CD328E /* LaunchScreen.storyboard */; };
+		39FDE736299E06FD00CD328E /* UserInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39FDE735299E06FD00CD328E /* UserInfo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		39FDE729299E061000CD328E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		39FDE72C299E061000CD328E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		39FDE72E299E061000CD328E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		39FDE735299E06FD00CD328E /* UserInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfo.swift; sourceTree = "<group>"; };
 		51E6E3E9662006A2DA3B1AC3 /* Pods-DemoAlamofire2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoAlamofire2.release.xcconfig"; path = "Target Support Files/Pods-DemoAlamofire2/Pods-DemoAlamofire2.release.xcconfig"; sourceTree = "<group>"; };
 		73AA154F66A76F402F0D2E7A /* Pods-DemoAlamofire2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoAlamofire2.debug.xcconfig"; path = "Target Support Files/Pods-DemoAlamofire2/Pods-DemoAlamofire2.debug.xcconfig"; sourceTree = "<group>"; };
 		908F40EA0521C62D023E54D7 /* Pods_DemoAlamofire2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DemoAlamofire2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -63,6 +65,7 @@
 		39FDE71F299E060B00CD328E /* DemoAlamofire2 */ = {
 			isa = PBXGroup;
 			children = (
+				39FDE734299E06F400CD328E /* Model */,
 				39FDE720299E060B00CD328E /* AppDelegate.swift */,
 				39FDE722299E060B00CD328E /* SceneDelegate.swift */,
 				39FDE724299E060B00CD328E /* ViewController.swift */,
@@ -74,13 +77,20 @@
 			path = DemoAlamofire2;
 			sourceTree = "<group>";
 		};
+		39FDE734299E06F400CD328E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				39FDE735299E06FD00CD328E /* UserInfo.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		91CA27F9DD87894CA557756A /* Pods */ = {
 			isa = PBXGroup;
 			children = (
 				73AA154F66A76F402F0D2E7A /* Pods-DemoAlamofire2.debug.xcconfig */,
 				51E6E3E9662006A2DA3B1AC3 /* Pods-DemoAlamofire2.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -207,6 +217,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				39FDE736299E06FD00CD328E /* UserInfo.swift in Sources */,
 				39FDE725299E060B00CD328E /* ViewController.swift in Sources */,
 				39FDE721299E060B00CD328E /* AppDelegate.swift in Sources */,
 				39FDE723299E060B00CD328E /* SceneDelegate.swift in Sources */,
