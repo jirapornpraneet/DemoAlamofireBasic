@@ -15,7 +15,9 @@ class ViewModel {
     var info: UserInfo?
     
     func requestCurrency(_ completion: ((_ success: Bool) -> ())? = nil) {
-        let request = AF.request("https://swapi.dev/api/people/1/").validate(statusCode:  200..<300)
+        let request = AF.request("https://swapi.dev/api/people/1/", method: .get, parameters: nil, encoding:URLEncoding.default, headers: nil)
+            .validate(statusCode:  200..<300)
+            .validate(contentType: ["application/json"])
         request.responseJSON { response in
             switch response.result {
             case .success(let value):
