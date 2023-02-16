@@ -1,0 +1,35 @@
+PODS:
+  - Alamofire (5.0.0-rc.3)
+  - AlamofireObjectMapper (6.3.0):
+    - Alamofire (= 5.0.0-rc.3)
+    - ObjectMapper (~> 3.5.1)
+  - ObjectMapper (3.5.3)
+
+DEPENDENCIES:
+  - Alamofire (~> 5.0.0-rc.3)
+  - AlamofireObjectMapper (from `https://github.com/tristanhimmelman/AlamofireObjectMapper.git`, tag `6.3.0`)
+  - ObjectMapper (~> 3.5.1)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - ObjectMapper
+
+EXTERNAL SOURCES:
+  AlamofireObjectMapper:
+    :git: https://github.com/tristanhimmelman/AlamofireObjectMapper.git
+    :tag: 6.3.0
+
+CHECKOUT OPTIONS:
+  AlamofireObjectMapper:
+    :git: https://github.com/tristanhimmelman/AlamofireObjectMapper.git
+    :tag: 6.3.0
+
+SPEC CHECKSUMS:
+  Alamofire: ca8c0de6906873be89d6deec5c8de279e00bf872
+  AlamofireObjectMapper: 86cc73986de0156c8e2cd71b7d09f523b75ac8d4
+  ObjectMapper: 97111c97e054a6ee25917662106689f0b4127b37
+
+PODFILE CHECKSUM: 904ba8ff8bf99978f7905c45855754b529e46e70
+
+COCOAPODS: 1.11.3
